@@ -9,3 +9,8 @@ tts:
 automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
+
+nest:
+  client_id: 977358822210-gam7cf0igc2ar4jvoasbj4tq83e2lo8i.apps.googleusercontent.com
+  client_secret: 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
+  project_id: 2b5d4891-8b5a-46fc-ba9e-cb37c24215da
