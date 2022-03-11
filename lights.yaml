@@ -1,0 +1,51 @@
+light:
+  - platform: group
+    name: Living Room Lights
+    entities:
+      - light.arc_lamp
+      - light.hanging_lamp
+  - platform: group
+    name: Den Lights
+    entities:
+      - light.den_overhead_1
+      - light.den_overhead_2
+      - light.den_sconce_1
+      - light.den_sconce_2
+  - platform: group
+    name: Guest Bathroom Lights
+    entities:
+      - light.guest_bathroom_light_1
+      - light.guest_bathroom_light_2
+  - platform: group
+    name: Guest Bedroom Lights
+    entities:
+      - light.guest_bedroom_lamp
+      - light.mcm_tripod
+  - platform: group
+    name: Basement Lights
+    entities:
+      - light.basement_stairs_light
+      - light.white_1
+      - light.white_2
+      - light.white_3
+      - light.white_4
+      - light.white_5
+      - light.white_6
+  - platform: group
+    name: Master Bedroom Lights
+    entities:
+      - light.master_bedroom_light_strip
+      - light.master_bedroom_overhead_light
+      - light.bedroom_1
+      - light.bedroom_2
+  - platform: group
+    name: Closet Lights
+    entities:
+      - light.lantz_closet_light
+      - light.brook_closet_light
+  - platform: group
+    name: Nursery Lights
+    entities:
+      - light.lachlan_lamp
+      - light.lachlan_light_strip
+      - light.lachlan_overhead_light
