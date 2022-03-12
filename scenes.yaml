@@ -1,0 +1,94 @@
+- id: '1647114000315'
+  name: Morning
+  entities:
+    light.guest_bathroom_lights:
+      supported_color_modes:
+      - brightness
+      icon: mdi:lightbulb-group
+      friendly_name: Guest Bathroom Lights
+      supported_features: 40
+      state: unavailable
+    light.downstairs_hallway_light:
+      min_mireds: 111
+      max_mireds: 400
+      supported_color_modes:
+      - brightness
+      - color_temp
+      - hs
+      color_mode: color_temp
+      brightness: 51
+      color_temp: 333
+      hs_color:
+      - 27.82
+      - 56.814
+      rgb_color:
+      - 255
+      - 177
+      - 110
+      xy_color:
+      - 0.496
+      - 0.383
+      friendly_name: Downstairs Hallway Light
+      supported_features: 32
+      state: 'on'
+    light.upstairs_hallway_light:
+      supported_color_modes:
+      - brightness
+      color_mode: brightness
+      brightness: 38
+      mode: normal
+      dynamics: none
+      friendly_name: Upstairs Hallway Light
+      supported_features: 40
+      state: 'on'
+    climate.nest:
+      hvac_modes:
+      - heat
+      - 'off'
+      - fan_only
+      min_temp: 45
+      max_temp: 95
+      fan_modes:
+      - 'on'
+      - 'off'
+      preset_modes:
+      - none
+      - eco
+      current_temperature: 71
+      temperature: 71
+      fan_mode: 'off'
+      hvac_action: idle
+      preset_mode: none
+      friendly_name: Nest
+      supported_features: 25
+      state: heat
+    light.den_lights:
+      min_mireds: 111
+      max_mireds: 400
+      supported_color_modes:
+      - brightness
+      - color_temp
+      - hs
+      color_mode: color_temp
+      brightness: 176
+      color_temp: 323
+      hs_color:
+      - 27.676
+      - 54.374
+      rgb_color:
+      - 255
+      - 180
+      - 116
+      xy_color:
+      - 0.487
+      - 0.381
+      entity_id:
+      - light.den_overhead_1
+      - light.den_overhead_2
+      - light.den_sconce_1
+      - light.den_sconce_2
+      icon: mdi:lightbulb-group
+      friendly_name: Den Lights
+      supported_features: 32
+      state: 'on'
+  icon: mdi:weather-sunset-up

@@ -1,1 +1,20 @@
-[]
+- id: '1647114316637'
+  alias: Lock Door After 5 Minutes
+  description: ''
+  trigger:
+  - platform: device
+    device_id: eca30fe04fc07c327a6ac7900d2e0c7a
+    domain: lock
+    entity_id: lock.front_door
+    type: unlocked
+    for:
+      hours: 0
+      minutes: 5
+      seconds: 0
+  condition: []
+  action:
+  - device_id: eca30fe04fc07c327a6ac7900d2e0c7a
+    domain: lock
+    entity_id: lock.front_door
+    type: lock
+  mode: single
